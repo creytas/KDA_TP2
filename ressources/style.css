@@ -12,6 +12,7 @@ h2{
     margin-left: 250px;
     font-weight: bolder;
     font-size: 30px;
+    margin-bottom: 5px;
 }
 
 h2, p a {
@@ -20,15 +21,19 @@ h2, p a {
 }
 
 h3{
-    color:white;
-    margin-left: 265px
+    color:#5448ae;
+    margin-left: 265px;
+    font-size: 27px;
+    text-shadow: 1px 1px 2px #333;
 
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
     font-size: 18px;
-    width: 840px;
+    width: 875px;
+    margin-top: 2px;
     margin-left: 250px;
 }
 
@@ -36,19 +41,24 @@ blockquote{
     font-family: 'Century Gothic', Courier, Helvetica, sans-serif;
     font-size: 19px;
     font-style: italic;
+    text-shadow: 1px 1px 3px black;
+    color: #cf0025;
     width: 840px;
     margin-left: 250px;
 }
 
 div{
-    margin-left: 265px
+    margin-left: 265px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 840px;
 }
 
 table{
     border-collapse: collapse;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    width: 840px;
+    width: 875px;
     margin-left: 250px; ;
 }
 
@@ -61,12 +71,19 @@ tr :hover{
 }
 
 th, td {
-    border: 0px solid black;
+    padding: 6px;
+
 }
 
 th{
     color: #DDD;
-    background-color: #333333;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td th :hover{
+    color: #DDD;
+    background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -101,6 +118,7 @@ figcaption{
     padding-left: 2px;
     margin-top: 5px;
     text-align: center;
+    font-size: 18px;
 }
 
 img{
@@ -112,11 +130,12 @@ img{
 }
 
 .conclusion{
+    width: 700px;
     border: 3px dashed #5448ae;
     color: #5448ae;
     background-color: #b7b7b7;
     padding: 20px;
-    margin-left: 275px;
+    margin-left: 315px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -125,11 +144,14 @@ img{
     color: #DDD;
     font-size: 18px;
     font-weight: bolder;
+    text-shadow: 1px 1px 3px black;
     background-color: #333;
     border: 3px solid #cf0025;
     border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
     padding: 5px;
-
+    margin: 20px;
+    margin-bottom: 50px;   
 }
 
 .gespage a{
@@ -139,3 +161,4 @@ img{
 .gespage a:visited{
     color: #DDD;
 }
+
