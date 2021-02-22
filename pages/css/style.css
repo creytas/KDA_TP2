@@ -1,0 +1,188 @@
+@font-face{
+    font-family:  "Baskerville"; src: url("/fonts/URW\ Baskerville\ W10\ Ultra\ Bold.ttf") format("ttf"); src: url("//db.onlinewebfonts.com/t/5770baa7788e08e9b8cf0195faa46e00.eot"); src: url("//db.onlinewebfonts.com/t/5770baa7788e08e9b8cf0195faa46e00.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5770baa7788e08e9b8cf0195faa46e00.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5770baa7788e08e9b8cf0195faa46e00.woff") format("woff"), url("//db.onlinewebfonts.com/t/5770baa7788e08e9b8cf0195faa46e00.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5770baa7788e08e9b8cf0195faa46e00.svg#Baskerville") format("svg");
+}
+
+body{
+    border: 0px solid black;
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #c8c8c8;
+    font-family: Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 900px;
+    margin: 14% auto;
+    position: relative;
+    transform: translateX(-2%);
+    border: 0px solid green ;
+}
+
+header{
+    position: absolute;
+    top: -35%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+h1{
+    font-size: 70px;    /*font-family: "Baskerville";*/
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 3%;
+    /*font-family: "Baskerville";*/
+}
+
+h2, p a {
+    color: #cf0025;
+    font-weight: bolder;
+}
+
+h3{
+    color:#5448ae;
+    margin-left: 6%;;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #333;
+
+}
+
+p{
+    width:840px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 3%;
+}
+
+blockquote{
+    width:740px;
+    font-family: 'Century Gothic', Courier, Helvetica, sans-serif;
+    font-size: 19px;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #fff;
+    color: #cf0025;
+    text-align: center;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+table{
+    width: 840px;
+    margin-left: 3%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+td, th{
+    padding: 1%;
+}
+
+tr:nth-child(2n){
+    background-color:#ddd ;
+}
+
+tr :hover{
+    background-color: #999;
+}
+
+th{
+    color: #DDD;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+td:nth-child(1){
+    text-align: center;
+}
+td a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+td{
+    font-size: 16px;
+}
+
+figure{
+    color: #DDD;
+    background-color: #333333;
+    border: 3px solid #cf0025;
+    border-radius: 10px;
+    width: 840px;
+    height: 800px;
+    position: relative;
+    top: 10%;
+    left: -1%;
+    transform: translate(-0.9%, -0.9%);
+    /*padding: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 250px;
+    padding-bottom: 50px;*/
+    
+}
+
+figcaption{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 95%;
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+
+}
+
+img{
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    transform: translate(-0.5%, -0.5%);
+}
+
+.conclusion{
+    width: 770px;
+    border: 3px dashed #5448ae;
+    color: #5448ae;
+    background-color: #b7b7b7;
+    padding: 20px;
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.container-text{
+    width: 80%;
+    margin-left: 4%;
+    border: 0px solid black;
+}
+
+#abreviation, #firstcode{
+    margin-left: 6%;
+}
+
+#code{
+    width: 85%;
+    word-wrap: break-word;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 15px;
+    padding-right: 60px;
+}
